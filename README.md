@@ -47,8 +47,9 @@ python -m ipykernel install --user --name <env_name> --display-name "Python (<en
 ### CNN (`cnn.ipynb`)
 
 - **Architecture:**
-  The architecture followed is from the following paper: https://www.nature.com/articles/s41598-025-87171-9
-    ![kernel_svm_1st_submission](assets/architecture.webp)
+  The architecture followed is from: https://www.nature.com/articles/s41598-025-87171-9
+  
+  ![kernel_svm_1st_submission](assets/architecture.webp)
   
 - **Data Augmentation** (10 expansion):
 
