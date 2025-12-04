@@ -47,20 +47,19 @@ python -m ipykernel install --user --name <env_name> --display-name "Python (<en
 ### CNN (`cnn.ipynb`)
 
 - **Architecture:**
-  - Conv2D (3→32 channels, 3×3 kernel) → ReLU → MaxPool2D
-  - Conv2D (32→64 channels, 3×3 kernel) → ReLU → MaxPool2D
-  - Fully Connected (3136→5)
+  The architecture followed is from the following paper: https://www.nature.com/articles/s41598-025-87171-9
+    ![kernel_svm_1st_submission](assets/architecture.webp)
   
-- **Data Augmentation** (10-20× expansion):
+- **Data Augmentation** (10 expansion):
 
 - **Training:**
-  - Optimizer: Adadelta (lr=0.001)
+  - Optimizer: SGD (lr=0.001)
   - Loss: CrossEntropyLoss
-  - Epochs: 20
+  - Epochs: 10
   - Batch size: 64
 
-- **Performance:** ~55% training accuracy, ~51% validation accuracy, ~50% test accuracy (on the Kaggle competition)
-![cnn_2nd_submission](assets/cnn_2nd_submission.png)
+- **Performance:** ~53% training accuracy, ~51% validation accuracy, ~52% test accuracy (on the public Kaggle competition)
+![cnn_2nd_submission](assets/cnn_4th_submission.png)
 
 # Data Augmentation
 The small training set (1,080 images) was expanded 10× through extensive augmentation. 
