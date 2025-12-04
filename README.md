@@ -1,4 +1,4 @@
-# Image Quality Classification - Kaggle Competition
+# Retinal Image Classification - Kaggle Competition
 
 **Course:** IFT 3395/6390 - Machine Learning  
 **Competition:** [Kaggle 2 Competition Fall 2025](https://www.kaggle.com/competitions/ift-3395-6390-kaggle-2-competition-fall-2025)
